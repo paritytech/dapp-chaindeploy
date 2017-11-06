@@ -14,7 +14,7 @@
 // You should have received a copy of the GNU General Public License
 // along with Parity.  If not, see <http://www.gnu.org/licenses/>.
 
-import abi from '@parity/shared/contracts/abi/githubhint';
+import abi from '@parity/shared/lib/contracts/abi/githubhint';
 
 import { compiler, source as sourceUrl, output as byteCode } from './code/githubhint';
 
